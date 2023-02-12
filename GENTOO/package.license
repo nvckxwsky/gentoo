@@ -1,5 +1,15 @@
 # Accepting both licenses for linux-firmware
 sys-kernel/linux-firmware linux-fw-redistributable no-source-code
-
 # Accepting any license that permits redistribution
 sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+# required by app-arch/unrar (argument)
+app-arch/unrar unRAR
+# required by net-dns/dnswalk (argument)
+net-dns/dnswalk freedist
+# required by games-util/steam-launcher (argument)
+games-util/steam-launcher ValveSteamLicense
+# required by x11-drivers/nvidia-drivers (argument)
+x11-drivers/nvidia-drivers NVIDIA-r2
+# required by sys-kernel/linux-firmware (argument)
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+
